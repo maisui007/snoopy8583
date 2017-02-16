@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdoroot package_type="iso8583" store-mode="UTF-8">
+    <H1 type="string" length="1" isHeader="true" encoding="UTF-8" isBCD="true"/>
+    <H2 type="string" length="1" isHeader="true" encoding="UTF-8" isBCD="true"/>
+    <H3 type="string" length="4" isHeader="true" encoding="UTF-8"/>
+    <H4 type="string" length="11" isHeader="true" encoding="UTF-8"/>
+    <H5 type="string" length="11" isHeader="true" encoding="UTF-8"/>
+    <H6 type="string" length="3" isHeader="true" encoding="UTF-8" isBCD="true"/>
+    <H7 type="string" length="1" isHeader="true" encoding="UTF-8" isBCD="true"/>
+    <H8 type="string" length="8" isHeader="true" encoding="UTF-8" />
+    <H9 type="string" length="1" isHeader="true" encoding="UTF-8" isBCD="true"/>
+    <H10 type="string" length="5" isHeader="true" encoding="UTF-8" />
+    <MsgType type="string" length="4" encoding="UTF-8"/>
+    <bitmap1 length="8" type="bitmap"/>
+    <bitmap2 length="8" type="bitmap"/>
+    <F2 type="string" length="19" variable_flag="2" field_index="2" encoding="UTF-8"/>
+    <F3 type="string" length="6" field_index="3" encoding="UTF-8"/>
+    <F4 type="string" length="12" field_index="4" encoding="UTF-8"/>
+    <F6 type="string" length="12" field_index="6" encoding="UTF-8"/>
+    <F7 type="string" length="10" field_index="7" encoding="UTF-8"/>
+    <F9 type="string" length="8" field_index="9" encoding="UTF-8"/>
+    <F10 type="string" length="8" field_index="10" encoding="UTF-8"/>
+    <F11 type="string" length="6" field_index="11" encoding="UTF-8"/>
+    <F12 type="string" length="6" field_index="12" encoding="UTF-8"/>
+    <F13 type="string" length="4" field_index="13" encoding="UTF-8"/>
+    <F14 type="string" length="4" field_index="14" encoding="UTF-8"/>
+    <F15 type="string" length="4" field_index="15" encoding="UTF-8"/>
+    <F16 type="string" length="4" field_index="16" encoding="UTF-8"/>
+    <F18 type="string" length="4" field_index="18" encoding="UTF-8"/>
+    <F19 type="string" length="3" field_index="19" encoding="UTF-8"/>
+    <F22 type="string" length="3" field_index="22" encoding="UTF-8"/>
+    <F23 type="string" length="3" field_index="23" encoding="UTF-8"/>
+    <F25 type="string" length="2" field_index="25" encoding="UTF-8"/>
+    <F26 type="string" length="2" field_index="26" encoding="UTF-8"/>
+    <F28 type="string" length="9" field_index="28" encoding="UTF-8"/>
+    <F32 type="string" length="11" variable_flag="2" field_index="32" encoding="UTF-8"/>
+    <F33 type="string" length="11" variable_flag="2" field_index="33" encoding="UTF-8"/>
+    <F35 type="string" length="37" variable_flag="2"  field_index="35" encoding="UTF-8"/>
+    <F36 type="string" length="104" variable_flag="3" field_index="36" encoding="UTF-8"/>
+    <F37 type="string" length="12" field_index="37" encoding="UTF-8"/>
+    <F38 type="string" length="6" field_index="38" encoding="UTF-8"/>
+    <F39 type="string" length="2" field_index="39" encoding="UTF-8"/>
+    <F41 type="string" length="8" field_index="41" encoding="UTF-8"/>
+    <F42 type="string" length="15" field_index="42" encoding="UTF-8"/>
+    <F43 type="string" length="40" field_index="43" encoding="UTF-8"/>
+    <F44 type="string" length="25" variable_flag="2" field_index="44" encoding="UTF-8"/>
+    <F47 type="string" length="100" variable_flag="3" field_index="47" encoding="UTF-8"/>
+    <F48 type="string" length="512" variable_flag="3" field_index="48" encoding="UTF-8"/>
+    <F49 type="string" length="3" field_index="49" encoding="UTF-8"/>
+    <F50 type="string" length="3" field_index="50" encoding="UTF-8"/>
+    <F51 type="string" length="3" field_index="51" encoding="UTF-8"/>
+    <F52 type="string" length="8" field_index="52" encoding="UTF-8" isBCD="true"/>
+    <F53 type="string" length="16" field_index="53" encoding="UTF-8"/>
+    <F54 type="string" length="40" variable_flag="3" field_index="54" encoding="UTF-8" />
+    <F55 type="string" length="255" variable_flag="3" field_index="55" encoding="UTF-8" />
+    <F57 type="string" length="100" variable_flag="3" field_index="57" encoding="UTF-8" />
+    <F59 type="string" length="600" variable_flag="3" field_index="59" encoding="UTF-8" />
+    <F60 type="string" length="100" variable_flag="3" field_index="60" encoding="UTF-8"/>
+    <F61 type="string" length="200" variable_flag="3" field_index="61" encoding="UTF-8"/>
+    <F62 type="string" length="200" variable_flag="3" field_index="62" encoding="UTF-8"/>
+    <F63 type="string" length="512" variable_flag="3" field_index="62" encoding="UTF-8"/>
+    <F70 type="string" length="3" field_index="70" encoding="UTF-8"/>
+    <F90 type="string" length="42" field_index="90" encoding="UTF-8"/>
+    <!--<F91 type="string" length="1" field_index="91" encoding="UTF-8"/>-->
+    <F96 type="string" length="8" field_index="96" encoding="UTF-8" isBCD="true"/>
+    <F100 type="string" length="11" variable_flag="2" field_index="100" encoding="UTF-8"/>
+    <F102 type="string" length="28" variable_flag="2" field_index="102" encoding="UTF-8"/>
+    <F103 type="string" length="28" variable_flag="2" field_index="103" encoding="UTF-8"/>
+    <!--<F108 type="string" length="32" variable_flag="3" field_index="108" encoding="UTF-8"/>-->
+    <F121 type="string" length="100" variable_flag="3" field_index="121" encoding="UTF-8"/>
+    <F122 type="string" length="100" variable_flag="3" field_index="122" encoding="UTF-8"/>
+    <F123 type="string" length="100" variable_flag="3" field_index="123" encoding="UTF-8"/>
+    <F128 type="string" length="8" field_index="128" encoding="UTF-8"/>
+</sdoroot>
